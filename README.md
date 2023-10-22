@@ -1,5 +1,5 @@
 <h1 align="center">
-Beem Suggestion Bot
+Suggestion Bot
   <br>
 </h1>
 
@@ -11,7 +11,30 @@ Beem Suggestion Bot
 `!decline [messageID]` : Declines a suggestion (Do not spam) <br>
 
 ## Get Started
-If you would like to get started with this bot, Head to https://github.com/Johns-bots/SuggestionsBot and follow the file.
+
+# Create a config.json file
+
+
+Add in the config.json file as it shows in image below  
+
+<h1 align="center">
+<a href="https://github.com/john-fries-j"><img src="https://cdn.discordapp.com/attachments/1118868994078818385/1164759063406587905/image.png">
+</a>
+</h1>
+
+
+
+# Create .env file
+
+Add in the .env file the following line
+
+TOKEN=
+
+Run npm i in terminal
+
+run node index.js in terminal
+test your commands
+any errors make a pull request.
 
 ## To-Do's
 Make bot Application Commands

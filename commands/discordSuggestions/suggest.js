@@ -7,9 +7,9 @@ module.exports = class extends Command {
       super(...args, {
         name: 'suggest',
         aliases: ["s", "sug","suggest"],
-        description: `Suggest anything!`,
+        description: `Suggest a suggestion!`,
         category: 'Suggestions',
-        cooldown: 0,
+        cooldown: 10,
         botPermission: ["ADD_REACTIONS"]
       });
     }
