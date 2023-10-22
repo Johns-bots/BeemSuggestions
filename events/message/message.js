@@ -38,8 +38,8 @@ module.exports = class extends Event {
       
      if (message.content.match(mentionRegex)) {
 
-       message.channel.send(`Hello there! My prefix for this server is ${config.prefix}`).then((s)=>{
-         s.delete({ timeout: 10000 })
+       message.channel.send(`Hello <@${message.author.id}>! My prefix is \`${config.prefix}\`\nTry \`${config.prefix}help\` to find more commands`).then((s)=>{
+         s.delete({ timeout: 1000000 })
        }).catch(()=>{})
 
       }
@@ -138,12 +138,12 @@ module.exports = class extends Event {
 
         .catch(error => {
            console.log(error)
-     return message.channel.send(`An Error has occured, please let the developer know.`)
+     return message.channel.send(`An Error has occured, please let <@${config.developers}> know.`)
         })
       }
     } catch(error) {
       console.log(error)
-     return message.channel.send(`An Error has occured, please let the developer know.`)
+     return message.channel.send(`An Error has occured, please let <@${config.developers}> know.`)
     }
   } 
 
@@ -176,7 +176,7 @@ module.exports = class extends Event {
         }
       } catch(e) {
         console.log(e)
-        message.channel.send(`An Error has occured, please let <@630070645874622494> know.`)
+        message.channel.send(`An Error has occured, please let <@${config.developers}> know.`)
       }
     }
 }

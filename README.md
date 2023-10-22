@@ -1,5 +1,5 @@
 <h1 align="center">
-Beem Suggestion Bot
+Suggestion Bot
   <br>
 </h1>
 
@@ -14,20 +14,15 @@ Beem Suggestion Bot
 
 # Create a config.json file
 
-Add in the config.json file the following lines
-``
-{
-    "prefix": "Your prefix",
-    "main_token": "Your token",
-    "developers": ["Your discordID"],
-    "bot_name":"Suggestions", - Put anything
-    "suggestion_channel_id":"Channel you want the message to be sent in",
-    "bot_status": "dnd", You Can choose from: dnd, online, idle, offline 
-    "bot_status_name": "Suggesting", Change this to what ever you want
-    "bot_status_type": "LISTENING", You Can choose from: PLAYING, LISTENING, WATCHING, COMPETING, STREAMING 
-    "logChannelID": "Your Log Channel"
-  }
-  ``
+
+Add in the config.json file as it shows in image below  
+
+<h1 align="center">
+<a href="https://github.com/john-fries-j"><img src="https://cdn.discordapp.com/attachments/1118868994078818385/1164759063406587905/image.png">
+</a>
+</h1>
+
+
 
 # Create .env file
 
